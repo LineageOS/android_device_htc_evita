@@ -4,5 +4,4 @@ on fs
 
 on post-fs
     # for backwards compatibility
-    symlink /sdcard /mnt/sdcard
     symlink /sdcard /storage/sdcard0
