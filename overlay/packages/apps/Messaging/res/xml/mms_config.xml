@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2009 The Android Open Source Project
+<!-- Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2013 The CyanogenMod Project
+     Copyright (C) 2009 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -22,17 +24,9 @@
 -->
 
 <mms_config version="4">
-
-    <!-- Maximum height for an attached image -->
-    <int name="maxImageHeight">960</int>
-
-    <!-- Maximum width for an attached image -->
-    <int name="maxImageWidth">1280</int>
-
     <!-- User-Agent parameter used in MMS http request -->
     <string name="userAgent">PJ83100</string>
 
     <!-- UAProf URL -->
     <string name="uaProfUrl">http://www.htcmms.com.tw/Android/ATT/PJ831/ua-profile.xml</string>
-
 </mms_config>
