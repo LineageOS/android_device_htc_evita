@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
+** Copyright (C) 2017 The LineageOS Project
 ** Copyright 2011, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,10 +18,7 @@
 */
 -->
 
-<!-- These resources are around just to allow their values to be customized
-     for different hardware and product builds. -->
 <resources>
-
     <!-- Button illumination -->
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
 
@@ -52,4 +50,9 @@
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">64</integer>
 
+    <!-- The RadioAccessFamilies supported by the device.
+         Empty is viewed as "all".  Only used on devices which
+         don't support RIL_REQUEST_GET_RADIO_CAPABILITY
+         format is UMTS|LTE|... -->
+    <string name="config_radio_access_family" translatable="false">GSM|GPRS|EDGE|WCDMA|LTE</string>
 </resources>
